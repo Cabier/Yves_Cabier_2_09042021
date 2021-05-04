@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-Italic-VariableFont_wght.ttf");
+  src: url("Raleway-VariableFont_wght.ttf") format("embedded-opentype"),
+    url("fonts/Amble-Regular-webfont.woff2") format("woff2"),
+    url("fonts/Amble-Regular-webfont.woff") format("woff"),
+    url("fonts/Amble-Regular-webfont.ttf") format("truetype"),
+    url("fonts/Amble-Regular-webfont.svg#ambleregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  color: #0065fc;
+  background-color: #f2f2f2;
+}
+
+footer {
+  border-color: black 50px;
+}
+#marecherche {
+  font-family: url("Raleway-VariableFont_wght.ttf") format("embedded-opentype");
+}
+/*<i class="fas fa-dog"></i>(unicode f6d3) (Solid style:fas)icone du chien*/
+/*f004 <i class="fas fa-heart"></i> icone du coeur*/
+/*f53a <i class="fas fa-money-bill-wave"></i> icone du billet*/
+/*f201 <i class="fas fa-chart-line"></i> icone de la flèche*/
+/*f129 <i class="fas fa-info"></i> icone du i information */
+header.border {
+  background-color: #f2f2f2;
+}
+header.border img {
+  width: 130px;
+}
+header.border {
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+body {
+  margin: 0 auto;
+}
+h1 {
+  font-size: large;
+ 
+}
+h2 {
+  font-size: small;
+  color: grey;
+}
+button {
+  border-collapse: collapse;
+  background-color: #0065fc;
+  color: #f2f2f2;
+}
+.icons{
+  size: px;
+}
+i{
+  display:block;
+  color:#f2f2f2;
+  font-size: 10px;
+  
+
+
+}
