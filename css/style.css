@@ -11,6 +11,9 @@
   color: #0065fc;
   background-color: #f2f2f2;
 }
+*{
+  font-family:"Raleway";
+}
 
 footer {
   border-color: black 50px;
@@ -24,7 +27,9 @@ footer {
 /*f201 <i class="fas fa-chart-line"></i> icone de la flèche*/
 /*f129 <i class="fas fa-info"></i> icone du i information */
 header.border {
-  background-color: #f2f2f2;
+  /* background-color: #f2f2f2; */
+  background-color:greenyellow;
+  background-size:cover ;
 }
 header.border img {
   width: 130px;
@@ -33,12 +38,25 @@ header.border {
   display: flex;
   flex-direction: column;
 }
-nav {
+
+
+
+
+
+/* menu de navigation */
+.contenant {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  background-color: hotpink;
+  list-style: none;
+  
+ 
 }
-
+nav.nav li{
+  color:#f2f2f2;
+  
+}
 body {
   margin: 0 auto;
 }
@@ -64,5 +82,9 @@ i{
   font-size: 10px;
   
 
+
+}
+a{
+  display: block;
 
 }
