@@ -1,0 +1,242 @@
+
+@font-face {
+  
+    font-family: 'raleway';
+      src: url('./font/raleway-italic-variablefont_wght-webfont.woff2') format('woff2'),
+           url('./font/raleway-italic-variablefont_wght-webfont.woff') format('woff'),
+           url('./fonts/Raleway-Black.ttf'),format('ttf'),
+           url('./font/Raleway-BlackItalic.ttf'),format('ttf'),
+           url('./fonts/Raleway-Bold.ttf'),  
+           url('.fonts/Raleway-BoldItalic.ttf'),
+           url('.fonts/Raleway-ExtraBold.ttf'),
+           url('.fonts/Raleway-ExtraBoldItalic.ttf'),
+           url('.fonts/Raleway-ExtraLight.ttf'),
+           url('.fonts/Raleway-ExtraLightItalic.ttf'),
+           url('.fonts/Raleway-Italic.ttf'),
+           url('.fonts/Raleway-Italic-VariableFont_wght.ttf'),
+           url('.fonts/Raleway-Light.ttf'),
+           url('.fonts/Raleway-LightItalic.ttf'),
+           url('.fonts/Raleway-Medium.ttf'),
+           url('.fonts/Raleway-MediumItalic.ttf'),
+           url('.fonts/Raleway-Regular.ttf'),
+           url('.fonts/Raleway-SemiBold.ttf'),
+           url('.fonts/Raleway-SemiBoldItalic.ttf'),
+      
+  
+  /*{
+    font-family:"Raleway";
+    font-weight: normal;
+      font-style: normal;
+    font-weight: normal;  font-style: normal;*/
+      
+  }
+  
+  nav,h1,h2,section
+  {
+    font-family: raleway;
+    
+  }
+    
+  
+  
+  
+  /* #marecherche { */
+    
+  
+  /*<i class="fas fa-dog"></i>(unicode f6d3) (Solid style:fas)icone du chien*/
+  /*f004 <i class="fas fa-heart"></i> icone du coeur*/
+  /*f53a <i class="fas fa-money-bill-wave"></i> icone du billet*/
+  /*f201 <i class="fas fa-chart-line"></i> icone de la flèche*/
+  /* f129 <i class="fas fa-info"></i> icone du i information  */
+  
+    /* background-color: #f2f2f2; */
+   
+    
+  
+  
+  
+  
+  
+  .headertop{width: 100px;
+    
+  
+  }
+  
+  
+  
+  /* menu de navigation 
+  .contenant {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: hotpink;
+    list-style: none;*/
+    
+   
+  
+  /*couleur des puces*/
+  nav.nav li{
+    color:#f2f2f2;
+    
+  }
+  body {
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: large;
+   
+  }
+  h2 {
+    font-size: small;
+    color: grey;
+  }
+  button {
+    border-collapse: collapse;
+    background-color: #0065fc;
+    color: #f2f2f2;
+  }
+  .icons{
+    size: px;
+  }
+  i{
+    display:block;
+    color:#f2f2f2;
+    font-size: 10px;
+    
+  
+  
+  }
+  a{
+    display: block;
+  
+  }
+  /* img{width: 100px; */
+   img.img_hebergement{width:100px;
+     height:50px;
+  border-top-left-radius:10px;
+  border-top-right-radius: 10px;
+  }
+  img.pop{
+    width: 80px;
+  height:50px;
+  border-top-left-radius:10px;
+  border-bottom-left-radius: 10px;
+  padding: auto;
+  }
+  img.activité{
+    width: 100px;
+  }
+  img.activity{
+    width: 100px;
+  }
+  p{
+     font-weight:bold ;
+     color:grey;
+     
+  }
+  em{
+    color: black;
+  }
+  .foot{background-color:#f2f2f2 ;
+  
+  
+  }
+  #conteneur{
+    display: flex;
+  }
+  section{
+    background-color:#f2f2f2;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .hmarseille{
+    font-weight: bold;
+  }
+  .activmarseille{
+  
+  font-weight: bold;
+  }
+  .popu{
+    font-weight:bold;
+  }
+  span.tx{
+    
+    font-size:15px ;
+  }
+  .héberge{
+    color: #0065fc;
+  }
+  .sinscrire{
+    color: #0065fc ;
+  }
+  .activ{
+    color: grey;
+  }
+  .boite1{
+    width: 500px;
+   
+  
+  }
+  .boite2{
+    width:300px
+  }
+  
+  .bordim{
+  border-color: black;
+  border-radius: 10px;
+  background-color: blueviolet;
+  width: 100px;
+  margin-bottom: 15px;
+  padding:5px;
+  
+  
+  }
+  .pluspop{
+    border-color: chocolate;
+    border-bottom-left-radius: 10px;
+  
+  
+  }
+  /*.special{
+  display: flex;
+  justify-content: flex-end;
+  }
+  commentaire: ça à fait bouger la section de la page*/
+  .f53a{
+    font-size: 96px;
+  }  
+  i{
+    color:#0065fc;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding-block: 10px;
+  }
+  .conteneur{
+  display: flex;
+  justify-content:flex-end;
+  
+  }
+  td{
+    border-bottom-left-radius: 5px solid grey;
+    border-bottom-left-radius: 5px
+  
+  }
+  table{
+    border border-collapse: ;
+  }
+
+  .input_container{
+    position: relative; /*important*/
+    }
+    
+    .input_icon{
+    position: absolute; /*important*/
+    top: 2px;
+    color: red; /*Tu peux changer ici*/
+    left: 2px;
+    font-size: 21px; /*Tu peux changer ici*/
+    width: 50px;
+    }
+    
+    input[type="text"], input[type="password"] {
+        padding-left:70px; /*Laisse de l'espace pour l'icône*/

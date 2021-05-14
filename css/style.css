@@ -1,22 +1,305 @@
+
+
+*{
+  font-family:"Raleway",sans-serif ;/* police du site */
+}
+/* corps de la page */
+body {
+  margin:0;
+  color:black
+}
+#bloc_page {
+  max-width: 1500px;
+  height: 1080px;
+  
+}
+/* les liens ne sont pas soulignés */
+a{
+  text-decoration: none;
+}
+/* taille du titre 1 */
+h1 {
+  font-size: 1.5em;
+}
+
+/*taille de la barre*/
+.barre {
+  max-width: 420px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  
+}
 .navbar {
   display: flex;
   width: 100%;
+  
 }
-
+/* étale la barre jusqu'au bout */
 .navet {
   display: flex;
   flex-grow: 2;
   justify-content: flex-end;
 }
-
+/* grossi la barre de navigation et la met à la fin de la page */
 .navet ul {
   display: flex;
   flex-direction: row;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-top: 10px;
+}
+/* permet d'aligner les liens en ligne */
+.navet ul li {
+  padding: 0 25px;
+}
+.ins {
+  padding-top: 10px;
+}
+/* couleur du titre1 */
+.hh1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* couleur du titre2 */
+.hh2 {
+  font-weight: lighter;
+  font-size: 15px;
+}
+.nuit {
+  font-size: 10px;
+}
+i.fas.fa-map-marker-alt {
+  background-color: #deebff;
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  line-height: 50px;
+  flex-shrink: 0;
+}
+.champ {
+  width: 100%;
+  border: none;
+  border-top: solid 1px #efefef;
+  border-bottom: solid 1px #efefef;
+  padding-left: 10px;
+}
+.champ::placeholder {
+  color: #000000;
+  font-weight: 500;
 }
 
-.navet ul li {
-  padding: 0 35px;
+.bouton_recherche {
+  background-color: #0065fc;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 0 20px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  flex-shrink: 0;
+  border: none;
+}
+
+.bouton_recherche:hover {
+  background-color: #f2f2f2;
+  color: #000000;
+}
+/*propriété de l'icône marker*/
+i.fas.fa-map-marker-alt {
+  background-color: #deebff;
+  width: 50px;
+  height: 50px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  line-height: 50px;
+  flex-shrink: 0;
+}
+/*propriété du champ de texte*/
+.champ {
+  width: 100%;
+  border: none;
+  border-top: solid 1px #efefef;
+  border-bottom: solid 1px #efefef;
+  padding-left: 10px;
+}
+/* propriété intérieur du champs */
+.champ::placeholder {
+  color: #000000;
+  font-weight: 500;
+}
+/*bloc des liens */
+div.choix {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
+}
+/*nom du filtre et sa marge*/ 
+#Filtre {
+  margin-right:20px;
+}
+/*affichage en horizontale*/
+#block_filtre {
+  list-style: none;
+  display: flex;
+  flex-flow: row ;
+  margin: 0;
+  padding: 0;
+}
+/*propriété et formes des boutons */
+.bouton_filtres {
+  padding: 0cm;
+  padding-right: 20px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  margin-right: 20px;
+  border: solid 1px #efefef;
+  background-color: transparent;
+}
+/*écart intérieur gauche des boutons*/
+.texte_bouton {
+  padding-left: 10px;
+} 
+/*taille et propriétés des icones*/ 
+.filterIcon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: #deebff;
+  color: #0065fc;
+  line-height: 46px;
+  text-align: center;
+}
+/*icone de l'info*/
+i.fas.fa-info-circle{
+  background-color:none;
+  width: 25px;
+  height: 45px;
+  margin-right: 5px;
+  color:#0065fc;
+  text-align: center;
+  line-height: 50px;
+  
+}
+/*section de l'information*/
+.deu information i {
+  display: flex;
+  align-items: center;
+  padding-right: 2px;
+  
+  border-top-color: black solid 8px ;
+}
+/*disposition section info*/
+.information {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  border-top-color: black solid 8px ;
+}
+.bouton_filtres:hover {
+  background-color: #deebff;
+}
+
+
+div.selection {
+  display: flex;
+  align-items: center;
+  
+}
+#hebergement {
+  min-height: 686px;
+  width: 900px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+
+  
+  
+}
+.titre_hebergement {
+  margin-top: 20px;
+  margin-left: 35px;
+  flex-direction: row;
+  
+  
+  
+  
+}
+
+.bordim { 
+  background-color: white;
+  width: 246px;
+  max-height: 200px;
+  margin: auto;
+  border-radius: 25px;
+  box-shadow: 3px 4px 3px 1px grey;
+  display: flex;
+  flex-direction: column;
+  flex-wrap:nowrap;
+  
+    
+}
+.img_marseille {
+  width: 238px;
+  height: 114px;
+  margin: auto;
+  margin-top: 2px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  
+}
+.img_hebergement {
+  width: 238px;
+  height: 114px;
+  margin: auto;
+  margin-top: 2px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px; 
+  
+
+}
+.flash {
+  font-size: small;
+  
+}
+.note_étoile1 :nth-child(-n+4) {
+  color:blue;
+
+}
+.note_étoile2 :nth-child(-n+5){
+  color:blue;
+}
+.note_étoile3 :nth-child(-n+4) {
+  color:blue;
+}
+.note_étoile4 :nth-child(-n+3) {
+  color:blue;
+}
+.note_étoile5 :nth-child(-n+4) {
+  color:blue;
+}
+.note_étoile6 :nth-child(-n+5) {
+  color:blue;
+}
+.i.fas.fa-star{
+  color:thistle
+}
+
+.sidebar {
+  width: 250px;
+  background-color: aqua;
+
 }
