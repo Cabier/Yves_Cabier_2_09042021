@@ -176,6 +176,13 @@ i.fas.fa-info-circle {
 .dispo {
   color: grey;
 }
+#principale {
+  display: flex;
+  flex-direction:row;
+
+  
+}
+
 #hebergement {
   min-height: 686px;
   width: 900px;
@@ -183,7 +190,7 @@ i.fas.fa-info-circle {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  
 }
 .titre_hebergement {
   margin-top: 20px;
@@ -191,7 +198,7 @@ i.fas.fa-info-circle {
   flex-direction: row;
 }
 
-.bordim {
+.hebergement_marseille {
   background-color: white;
   width: 246px;
   max-height: 200px;
@@ -200,7 +207,7 @@ i.fas.fa-info-circle {
   box-shadow: 3px 4px 3px 1px grey;
   display: flex;
   flex-direction: column;
-  justify-content: ;
+  flex-wrap: nowrap;
 }
 .img_marseille {
   width: 238px;
@@ -218,6 +225,17 @@ i.fas.fa-info-circle {
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
+.text_hebergement {
+  
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    
+    flex-wrap: wrap;
+  
+ }
+ /* 
 .flash {
   font-size: small;
 }
@@ -241,9 +259,90 @@ i.fas.fa-info-circle {
 }
 .i.fas.fa-star {
   color: thistle;
+}*/
+
+#populaires {
+  min-width: 420px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 30px;
 }
 
-.sidebar {
-  width: 250px;
-  background-color: aqua;
+.titre_populaires {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction:flex-end;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.titre_populaires i {
+  margin-top: 30px;
+}
+
+.chambre {
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 15px;
+}
+.les_plus_populaires {
+  background-color: white;
+  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  height: 146px;
+  max-width: 404px;
+  width: 100%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.image {
+  width: 128px;
+  height: 136px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.images_popu {
+  width: 128px;
+  height: 136px;
+  float: left;
+  margin: auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.block_texte {
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.block_texte h2 {
+  margin-bottom: 7px;
+}
+
+.block_texte p {
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+.notation {
+  color: #d9d9d9;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 15px;
+}
+
+.note {
+  color: #0065fc;
 }
