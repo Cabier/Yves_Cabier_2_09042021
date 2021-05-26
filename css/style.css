@@ -1,55 +1,58 @@
-@font-face {
-  font-family: "raleway";
-  src: local("./font/raleway-italic-variablefont_wght-webfont.woff2") format("woff2"), url("fonts/raleway-italic-variablefont_wght-webfont.woff") format("woff");
-  
+* {
+  font-family: 'raleway',sans-serif;
+ 
 }
-
-@font-face {
-  font-family: "raleway";
-  src: local("./font/raleway-variablefont_wght-webfont.woff2") format("woff2"), url("raleway-variablefont_wght-webfont.woff") format("woff");
-  
-}
-
-body {
-  font-family: "ralewaythin", sans-serif;
-  margin: 0;
-  padding: 10px 65px 10px 65px;
-}
-
+.main1 {
+  margin-left:35px;
+}  
 .header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  
 }
-
-a {
-  text-decoration: none;
-  padding-right: 45px;
-}
-
 .navbar {
-  width: 37%;
+margin-right: 50px;  
 }
-.navbar ul {
-  margin-left: 1px;
+nav {
+width: 400px; 
+margin-left: 120px;
+}
+nav ul{
+  list-style: none;
+  padding-right:100 ;
+ 
+}
+li,a,button {
+  font-family:'raleway',sans-serif;
+  text-decoration: none;
+  
+}
+nav li {
+  display: inline-block;
+  padding-right: 30px;
+}
+div nav {
+  display: flex;
+  justify-content:flex-end;
+}
+.logo {
+  margin-right: auto;
+  
+}
+.inscrire {
+  
+  margin-right: 106px;
+ 
+}
+.lien {
+  margin-right: 5;
 }
 
-.ancre {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-}
-.lien1 {
-  color:#0065fc;
-}
-.lien2 {
-  color:grey;
-}
-.lien3 {
-  color:#0065fc;
+
+.titre1 {
   font-weight: bold;
+  
 }
 h4 {
   color: grey; 
@@ -78,12 +81,13 @@ input::placeholder {
   border-bottom: solid 1px #efefef;
   padding-left: 10px;
 }
-
 .barre {
   max-width: 420px;
   height: 50px;
   border-radius: 10px;
   display: flex;
+
+  
 }
 
 .bouton_recherche {
@@ -97,18 +101,9 @@ input::placeholder {
   flex-shrink: 0;
   border: none;
 }
-
-.champ {
-  width: 100%;
-  border: none;
-  border-top: solid 1px #efefef;
-  border-bottom: solid 1px #efefef;
-  padding-left: 10px;
-}
-
 .champ::placeholder {
-  color: #000000;
-  font-weight: 500;
+ 
+  font-weight: bold;
 }
 
 .bouton_recherche:hover {
@@ -128,11 +123,6 @@ div.selection {
   display: flex;
   align-items: center;
 }
-
-/*#filtres {
-    margin-right: 20px;
-  }*/
-
 #block_filtre {
   list-style: none;
   display: flex;
@@ -141,22 +131,23 @@ div.selection {
   padding: 0;
 }
 
+
+
 .bouton_filtres {
   padding: 0;
-  padding-right: 20px;
-  border-radius: 25px;
+  padding-right: 70px;
+  border-radius: 30px ;
   display: flex;
   align-items: center;
   font-weight: bold;
-  font-family: "Raleway", sans-serif;
   margin-right: 20px;
   border: solid 1px #efefef;
   background-color: transparent;
 }
 
 .bouton_filtres>i {
-  font-size: 16px;
-  margin-top: 7px;
+  font-size: 20px;
+  
 }
 
 .bouton_filtres:hover {
@@ -168,44 +159,30 @@ div.selection {
 }
 
 .filterIcon {
-  width: 46px;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  width: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-radius: 45%;
   background-color: #deebff;
   color: #0065fc;
   text-align: center;
-}
-.bouton1 {
-  
-}
-.bouton2 {
-  
-}
-.information>i {
-  color: red;
+  flex-shrink: initial;
 }
 
-::selection {
-  display: flex;
-  flex-direction: row;
-}
 
 .bloc_filtres {
   display: flex;
   justify-content: flex-start;
   margin-top: 30px;
 }
-
 #filtre {
-  margin-right: 20px;
+  margin-right: 60px;
   padding-bottom: 20px;
 }
-
-.boutons {
-  margin-top: 6px;
+.texte_bouton {
+  font-size: 20px;
+  
 }
-
 .information {
   display: flex;
   flex-direction: row;
@@ -217,7 +194,7 @@ i.fas.fa-info-circle {
   margin-right: 5px;
   text-align: center;
   line-height: 50px;
-  border-radius: 10px;
+  border-radius: solid black 10px;
 }
 
 .dispo {
@@ -231,7 +208,7 @@ i.fas.fa-info-circle {
 
 #hebergement {
   min-height: 686px;
-  width: 65%;
+  width: 60%;
   background-color: #f2f2f2;
   border-radius: 20px;
   display: flex;
@@ -242,7 +219,8 @@ i.fas.fa-info-circle {
   margin-left: 35px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 50px;
+  grid-row-gap: 30px;
+  
 }
 
 .titre_hebergement {
@@ -256,8 +234,8 @@ i.fas.fa-info-circle {
   background-color: white;
   width: 242px;
   border-radius: 22px;
-  box-shadow: 3px 4px 3px 1px grey;
-  padding: 3px 2px 2px 6px;
+  box-shadow: 2px 2px 3px 1px grey;
+  padding: 2px 2px 2px 6px;
   
 }
 
@@ -288,6 +266,7 @@ i.fas.fa-info-circle {
   margin: 0;
   padding-top: 12px;
   padding-bottom: 8px;
+  
 }
 
 .étoile{
@@ -296,36 +275,13 @@ i.fas.fa-info-circle {
 .titre_hebergement2 {
   margin :1px;
 }
-/* 
-.note_étoile1 :nth-child(-n + 4) {
-  color: blue;
-}
-.note_étoile2 :nth-child(-n + 5) {
-  color: blue;
-}
-.note_étoile3 :nth-child(-n + 4) {
-  color: blue;
-}
-.note_étoile4 :nth-child(-n + 3) {
-  color: blue;
-}
-.note_étoile5 :nth-child(-n + 4) {
-  color: blue;
-}
-.note_étoile6 :nth-child(-n + 5) {
-  color: blue;
-}
-.i.fas.fa-star {
-  color: thistle;
-}*/
-
 #populaires {
-  width: 33%;
-  margin-left: 25px;
+  width: 32%;
   background-color: #f2f2f2;
   border-radius: 20px;
-  padding: 15px;
-  margin-left: 30px;
+  padding: 10px;
+  margin-left: 58px;
+  margin-right: 2px;
 }
 
 .titre_populaires {
@@ -412,22 +368,26 @@ i.fas.fa-info-circle {
 
 /*---------- ACTIVITES A MARSEILLE -------------*/
 
-.activites_marseille {
+.activites_marseille h1{
   font-weight: bold;
+  margin-left: 18px;
+
 }
 
 #activites {
   list-style: none;
   padding-inline-start: 0;
-  width: 100%;
+  width: 96%;
   display: grid;
   grid-template-areas:
     "image1 image2 image4 image5"
     "image1 image2 image4 image8"
     "image1 image7 image4 image6"
     "image1 image3 image4 image6";
-  grid-auto-rows: 165px 45px 45px 165px;
+  grid-auto-rows: 175px 55px 45px 165px;
   grid-column-gap: 40px;
+  margin-left: 10px;
+  margin-top: 0%;
 }
 
 #A1 {
@@ -437,6 +397,7 @@ i.fas.fa-info-circle {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+
 }
 
 #A2 {
@@ -446,6 +407,7 @@ i.fas.fa-info-circle {
   display: flex;
   flex-direction: column;
   margin-top: 30px;
+  
 }
 
 #A3 {
@@ -496,6 +458,7 @@ div.P1 > img {
   height: 100%;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
+  object-fit: cover;
 }
 
 .texte_activites h4 {
@@ -541,6 +504,9 @@ div.P1 > img {
 
 footer  section.pied_de_pages  ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 20px;
 }
 
 footer section ul li a.foot {
