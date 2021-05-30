@@ -1,17 +1,18 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="icons" />
-  <script src="https://kit.fontawesome.com/2cc9a72ed3.js" crossorigin="anonymous"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reservia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"><!--police gras-->
+    
+    <link rel="stylesheet" href="icons" />
+    <script src="https://kit.fontawesome.com/2cc9a72ed3.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservia</title>
 
 </head>
 
@@ -21,22 +22,24 @@
       <img src="images/logo/Reservia.svg" alt="logo_reservia" class="logo">
       
         <nav>
-          <ul class="ancre">
+          <ul class="menu_principal">
 
             <li class="lien1">
-              <a href="#hebergements"><span class="lien1">Hébergements</span></a>
+              <a href="#hebergements">Hébergements</a>
             </li>
 
 
             <li class="lien2">
-              <a href="#activitees"><span class="lien2">Activités</span></a>
+              <a href="#activites">Activités</a>
             </li>
 
 
           </ul>
         </nav>
+      <div class="register">
+        <a class="inscrire" href="#">S'inscrire</a>
+      </div>
       
-      <a class="inscrire" href="#">S'inscrire</span></a>
       </li>
     </header>
     <h2 class="titre1">Trouvez votre hébergement pour des vacances de rêve</h2>
@@ -110,18 +113,14 @@
       <p class="dispo">Plus de 500 logements sont disponibles dans cette ville</p>
       <!-- <p class="mot1">Filtres</p> -->
     </div>
-
-
-
     <section id="principale">
-
       <section id="hebergement">
         <!--section hebergement a marseille-->
         <div class="titre_hebergement">
           <h2 id="hebergements">Hébergements à Marseille</h2>
         </div>
         <!--bloc du titre -->
-        <section class="hotel">
+        <section class="hotel1">
           <div class="hebergement_marseille">
             <!--parent des contenus des images-->
             <div class="img_marseille">
@@ -130,7 +129,7 @@
             </div>
             <div class=text_hebergement>
 
-              <h4>Auberge La Cannebières</h4>
+              <h4>Auberge La Cannebière</h4>
               <div> <em class="flash"> Nuit à partir de 25€</em></div>
               <div class="étoile">
                 <div class="note_étoile1">
@@ -187,7 +186,8 @@
               </div>
             </div>
           </div>
-
+        </section>
+        <section class="hotel2">
           <div class="hebergement_marseille">
             <div class="img_marseille"><a href="Hôtel de la mer"><img src="./images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                 alt="Hôtel de la mer" class="img_hebergement" /></a></div>
@@ -249,13 +249,16 @@
               </div>
             </div>
           </div>
-
+        </section>
           <div class="titre_hebergement2">
             <h2>Afficher plus</h2>
           </div>
-          <!--   <p>Afficher plus</p>-->
-        </section>
-      </section>
+          
+        
+  </section>
+
+
+    
 
       <section id="populaires">
         <div class="titre_populaires">
@@ -344,79 +347,72 @@
         </div>
       </section>
     </section>
-
-
-    <section>
-      <div class="activites_marseille">
-        <h1 id="activitees">Activités à Marseille</h1>
+    <div class="activites_marseille">
+      <h1 id="activitees">Activités à Marseille</h1>
+    </div>
+<section class="section2">
+      
+       <div class="box1">
+         
+          <a href="#"><img src="./images/activites/4_small/Vieux_Port.jpg" alt="Vieux Port" class="images_activite1" /></a>
+          
+        
+          <h4 class="texte_activites1">Vieux Port</h4>
+       
       </div>
 
-      <ul id="activites">
-        <!--Vieux Port-->
-        <li id="A1">
-          <div class="P1">
-            <img src="./images/activites/4_small/Vieux_Port.jpg" alt="Vieux Port" class="images_activite" />
-          </div>
-          <div class="texte_activites">
-            <h4>Vieux Port</h4>
-          </div>
-        </li>
+      <!--Fort de Pomègues-->
+      <div class="parentbox1">
+         <div class= "box2">
+          <div>
+          <a href="#"><img src="images/activites/4_small/Fort_de_Pomègues.jpg" alt="Fort de Pomègues" class="images_activite2" /></a>
+        
+        
+          <h4 class="texte_activites1">Fort de Pomègues</h4>
+         </div>
+       </div>
+      
 
-        <!--Fort de Pomègues-->
-        <li id="A2">
-          <div class="P1">
-            <img src="images/activites/4_small/Fort_de_Pomègues.jpg" alt="Fort de Pomègues" class="images_activite" />
+      <!--îles du Frioul-->
+      
+        <div class="box3">
+          <img src="images/activites/4_small/Iles_de_frioul.jpg" alt="îles du Frioul" class="images_activite3" />
+        
+          <h4 class="texte_activites1">îles du Friouls</h4>
           </div>
-          <div class="texte_activites">
-            <h4>Fort de Pomègues</h4>
-          </div>
-        </li>
+       </div>
+      </div>
+        <div class="box4">
+          <img src="images/activites/4_small/Parc_national_des_Calanques.jpg" alt="Parc National des calanques"
+            class="images_activite4"/>
+        
+        
+          <h4 class="texte_activites1">Parc National des calanques</h4>
+        </div>
+      
 
-        <!--îles du Frioul-->
-        <li id="A3">
-          <div class="P1">
-            <img src="images/activites/4_small/Iles_de_frioul.jpg" alt="îles du Frioul" class="images_activite" />
-          </div>
-          <div class="texte_activites">
-            <h4>îles du Friouls</h4>
-          </div>
-        </li>
+      <!--Notre-Dame-de-la Garde-->
+      <div class="parentbox2">
+        <div class="box5">
+          <img src="images/activites/4_small/Notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la Garde"
+            class="images_activite5" />
+        
+        
+          <h4 class="texte_activites1">Notre-Dame-de-la Garde</h4>
+        </div>
+      
+        <div class="box6">
+          <img src="images/activites/4_small/Parc_longchamp.jpg" alt="Parc Longchamp" class="images_activite6" />
+        
+        
+          <h4 class="texte_activites1">Parc Longchamp</h4>
+        </div>
+      </div>
 
-        <!--Parc National des calanques-->
-        <li id="A4">
-          <div class="P1">
-            <img src="images/activites/4_small/Parc_national_des_Calanques.jpg" alt="Parc National des calanques"
-              class="images_activite" /></a>
-          </div>
-          <div class="texte_activites">
-            <h4>Parc National des calanques</h4>
-          </div>
-        </li>
-
-        <!--Notre-Dame-de-la Garde-->
-        <li id="A5">
-          <div class="P1">
-            <img src="images/activites/4_small/Notre_dame_de_la_garde.jpg" alt="Notre-Dame-de-la Garde"
-              class="images_activite" />
-          </div>
-          <div class="texte_activites">
-            <h4>Notre-Dame-de-la Garde</h4>
-          </div>
-        </li>
-
-        <!--Parc Longchamp-->
-        <li id="A6">
-          <div class="P1">
-            <img src="images/activites/4_small/Parc_longchamp.jpg" alt="Parc Longchamp" class="images_activite" />
-          </div>
-          <div class="texte_activites">
-            <h4>Parc Longchamp</h4>
-          </div>
-        </li>
-
-      </ul>
-    </section>
-  </main>
+    
+  </section>
+</main>
+    
 
 
   <!--foot-->
