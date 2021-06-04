@@ -222,8 +222,9 @@ div.selection {
   margin-right: 1rem;
 }
 #principale {
-  display: flex;
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap:50px;
 }
 #hebergement {
   height: 686px;
@@ -537,6 +538,7 @@ a {
   .header {
     display: block;
     position: relative;
+    height: auto;
   }
   .header .register {
     position: absolute;
@@ -584,11 +586,10 @@ a {
   background-color: #deebff;
   color: #0065fc;
 }
-#block_filtre {
+#bloc_filtres {
   list-style: none;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .section3 {
   display: grid;
@@ -607,5 +608,5 @@ footer {
   font-size:14px;
 }
 footer p {
-  font-size: 10px;
+  font-size: 14px;
 }
