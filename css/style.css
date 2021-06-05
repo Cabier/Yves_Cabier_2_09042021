@@ -535,6 +535,7 @@ a {
   color: inherit;
 }
 @media screen and (max-width: 1024px) {
+  
   .header {
     display: block;
     position: relative;
@@ -545,20 +546,32 @@ a {
     top: 20px;
     right: 35px;
     padding: 0;
+    margin-top: 8px;
+    
   }
   .header nav ul {
     display: flex;
     justify-content: space-between;
     height: auto;
     padding-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main1 {
+    margin: 0;
+  }
+  .activity {
+    padding-top: 1px;
   }
   .traitbleu {
     color: #0065fc;
     border-bottom:#0065fc solid 3px ;
-  }
-  .lien1 {
-    border-bottom: 1px solid #0065fc;
     border-top: none;
+  }
+  .titre1 {
+    text-align: justify;
+    margin: 8px 8px;
+    font-size: 22px;
   }
   #texte_bouton_recherche::after {
     font-family: "material-icons";
@@ -578,6 +591,10 @@ a {
   font-weight: 600;
   src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v14/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
 }
+#filtre {
+ margin-right:60px ;
+  padding-bottom: 0px;
+}
 .filterIcon {
   width: 40px;
   padding-top: 10px;
@@ -586,16 +603,25 @@ a {
   background-color: #deebff;
   color: #0065fc;
 }
-#bloc_filtres {
+.bloc_filtres {
+  list-style: none;
+  display: grid;
+  margin: 5px;
+}
+#bloc_filtre {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+.bouton_responsive {
+  padding-bottom:10px;
 }
 .section3 {
   display: grid;
   grid-template-rows: auto;
 
 }
+/* -----footer------- */
 footer {
 
   display: flex;
