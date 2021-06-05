@@ -45,8 +45,6 @@ ul li a {
 }
 .hebergement_color {
   color: #0065fc;
- 
-  
 }
 .activity {
   color:inherit;
@@ -120,7 +118,8 @@ input::placeholder {
 }
 
 #texte_bouton_recherche::after {
-  content: "rechercher";
+  content: "Rechercher";
+  font-size: large;
 }
 
 .bouton_recherche i {
@@ -155,7 +154,7 @@ div.selection {
 .bouton_filtres {
   padding: 0;
   padding-right: 20px;
-  border-radius: 20px;
+  border-radius: 49px;
   display: flex;
   align-items: center;
   font-weight: bold;
@@ -167,7 +166,7 @@ div.selection {
 }
 .bouton_filtres > i {
   font-size: 14px;
-  border-radius: 38%;
+  border-radius: 48%;
 }
 
 .bouton_filtres:hover {
@@ -274,7 +273,7 @@ div.selection {
   margin: 0;
   padding-top: 12px;
   padding-bottom: 8px;
-  font-family: "raleway", sans-serif;
+ font-weight: bold;
 }
 .étoile {
   margin-top: 10px;
@@ -294,14 +293,6 @@ div.selection {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 40px;
-  
-
-}
-.text_hebergement > h4 {
-  margin: 0;
-  padding-top: 12px;
-  padding-bottom: 8px;
-  font-weight: bold;
 }
 
 .étoile{
