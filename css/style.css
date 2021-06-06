@@ -405,7 +405,9 @@ div.selection {
 }
 
 /*---------- ACTIVITES A MARSEILLE -------------*/
-
+.images_activite {
+  object-fit: cover;
+}
 #activites {
   margin-top: 25px;
   list-style: none;
@@ -427,36 +429,42 @@ div.selection {
   border-radius: 25px;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
   margin-left: 35px;
+  object-fit: cover
 }
 
 #A2 {
   grid-area: image2;
   border-radius: 25px;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  object-fit: cover
 }
 
 #A3 {
   grid-area: image3;
   border-radius: 25px;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  object-fit: cover
 }
 
 #A4 {
   grid-area: image4;
   border-radius: 25px;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  object-fit: cover
 }
 
 #A5 {
   grid-area: image5;
   border-radius: 25px;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  object-fit: cover
 }
 
 #A6 {
   grid-area: image6;
   border-radius: 25px;
   box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  object-fit: cover
 }
 
 .P1 {
