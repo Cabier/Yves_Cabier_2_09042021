@@ -291,7 +291,7 @@ div.selection {
 .hotel {
   margin-left: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns:repeat(3, 1fr);
   grid-row-gap: 40px;
   position: relative;
 }
@@ -325,7 +325,7 @@ div.selection {
   padding: 15px;
   position: relative;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows:repeat(3, 1fr) ;
 }
 
 .les_plus_populaires {
