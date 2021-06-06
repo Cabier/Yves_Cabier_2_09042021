@@ -323,6 +323,8 @@ div.selection {
   margin-bottom: 30px;
   padding: 15px;
   position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .les_plus_populaires {
