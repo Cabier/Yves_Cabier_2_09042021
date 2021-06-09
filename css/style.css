@@ -221,7 +221,7 @@ div.selection {
 }
 #hebergement {
   height: 686px;
-  width: 60%;
+  width: 56%;
   background-color: #f2f2f2;
   border-radius: 20px;
   display: flex;
@@ -233,10 +233,10 @@ div.selection {
   padding-left: 80px;
 }
 .hotel {
-  margin-left: 35px;
+  
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 50px;
+  grid-row-gap: 45px;
 }
 
 .hebergement_marseille {
@@ -279,6 +279,8 @@ div.selection {
   display: flex;
   flex-direction: row-reverse;
   margin-bottom: 25px;
+  margin: 0;
+  margin-left:-150px ;
 }
 
 .hotel {
@@ -293,7 +295,7 @@ div.selection {
   margin-top: 8px;
 }
 #populaires {
-  width: 40%;
+  width: 30%;
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 10px;
@@ -639,6 +641,7 @@ a {
   }
   #principale {
     display: block;
+    margin:0
   }
 
   .img_hebergement {
