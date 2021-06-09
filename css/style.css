@@ -674,9 +674,7 @@ a {
     margin-bottom: 15px;
     padding-left: 20px;
   }
-  .titre_hebergement2 {
-
-  }
+  
 
   .hebergement_marseille {
     background-color: white;
@@ -744,6 +742,10 @@ a {
     width: 180px;
     margin-right: 5px;
   }
+  .infoicon {
+    padding-top: 5px;
+    padding-bottom: 1px;
+  }
   .titre_hebergement2 {
     padding-left: 15px;
   }
@@ -753,7 +755,7 @@ a {
 
   #activites {
     display: block;
-    
+   
   }
 
   #A1 #A2 #A3 #A4 #A5 #A6 {
@@ -764,7 +766,7 @@ a {
     border-radius: 28px;
     padding: 2px 2px 2px 6px;
     margin-bottom: 20px;
-    min-height: fit-content;
+    
   }
   #A1 {
     margin-left: 15px ;
@@ -796,6 +798,7 @@ a {
     height: calc(100% - 50px);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    height: auto;
   }
   
   div.P1 > img {
