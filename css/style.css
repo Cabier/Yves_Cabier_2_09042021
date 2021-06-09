@@ -759,9 +759,9 @@ a {
     background-color: white;
     width: 28%;
     border-radius: 28px;
-    
     padding: 2px 2px 2px 6px;
     margin-bottom: 20px;
+    min-height: fit-content;
   }
   #A1 {
     margin-left: 15px ;
