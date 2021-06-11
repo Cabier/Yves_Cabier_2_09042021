@@ -296,7 +296,7 @@ div.selection {
 }
 #hebergement {
   height: 686px;
-  width: 56%;
+  width: 60%;
   background-color: #f2f2f2;
   border-radius: 20px;
   display: flex;
@@ -308,27 +308,26 @@ div.selection {
   padding-left: 80px;
 }
 .hotel {
-  
+  margin-left: 35px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 45px;
+  grid-row-gap: 50px;
 }
 
 .hebergement_marseille {
   background-color: white;
-  width: 250px;
+  width: 262px;
   border-radius: 28px;
   box-shadow: 2px 2px 3px 2px grey;
   padding: 2px 2px 2px 6px;
   margin: auto;
 }
 .img_hebergement {
-  width: 246px;
+  width: 260px;
   height: 120px;
   margin-top: 2px;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
-  padding-top: 2px;
 }
 
 .text_hebergement {
@@ -350,7 +349,15 @@ div.selection {
   margin: 20px;
   padding-left: 65px;
 }
+<<<<<<< HEAD
 
+=======
+#principale {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 25px;
+}
+>>>>>>> 18be2254bbb793e072d65b3dd45452b12cb1d718
 
 .hotel {
   margin-left: 20px;
@@ -364,7 +371,7 @@ div.selection {
   margin-top: 8px;
 }
 #populaires {
-  width: 30%;
+  width: 40%;
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 10px;
@@ -546,12 +553,10 @@ div.P1 > img {
 }
 
 .texte_activites h4 {
-  margin: 10px 0px 15px 15px;
+  margin: 15px 0px 25px 30px;
   font-family: "raleway", serif;
   color: black;
   font-weight: bold;
-  font-size: 20px;
-  padding-top: 10px;
 }
 
 .texte_activites {
@@ -705,17 +710,14 @@ a {
     border-radius: 100%;
     display: block;
     text-align: center;
-    margin-bottom: 10px;
-    padding-top: 3px;
   }
   @media screen and (max-width: 1024px)
   #principale {
     display: block;
-    margin:0
   }
 
   .img_hebergement {
-    width: 99%;
+    width: 100%;
   }
 
   #populaires {
@@ -740,22 +742,19 @@ a {
   }
 
   .titre_hebergement {
-    margin-top: 0px;
-    margin-bottom: 15px;
-    padding-left: 20px;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding-left: 35px;
   }
-  
 
   .hebergement_marseille {
     background-color: white;
-    width: 90%;
+    width: 91%;
     border-radius: 28px;
-    box-sizing: border-box;
-    margin-top: 0px;
+    box-shadow: 2px 2px 3px 2px grey;
+    padding: 2px 2px 2px 6px;
     margin: auto;
     margin-bottom: 20px;
-    box-shadow: 0 0 16px #0000002e;
-    
   }
 
   .hotel {
@@ -788,59 +787,38 @@ a {
     display: flex;
     flex-direction: column;
   }
-  .bouton_filtres {
-    padding: 0;
-    padding-right: 4px;
-    border-radius: 49px;
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    border: 2px solid #efefef;
-    background-color: transparent;
-    font-family: "Raleway", sans-serif;
-    margin-right: 20px;
-  }
   .bouton_responsive {
-    padding-bottom: 8px;
-    font-size: 12px;
+    padding-bottom: 10px;
+    font-size: 15px;
   }
 
   .bouton_responsive:nth-child(2) {
-    width: 50px;
+    width: 90px;
   }
   .bouton_responsive:nth-child(1) {
-    width: 180px;
-    margin-right: 5px;
+    width: 190px;
   }
-  .infoicon {
-    padding-top: 5px;
-    padding-bottom: 1px;
-  }
-  .titre_hebergement2 {
-    padding-left: 15px;
-  }
+
   .section3 {
     display: block;
   }
 
   #activites {
     display: block;
-   
   }
 
   #A1 #A2 #A3 #A4 #A5 #A6 {
     grid-area: none;
     box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
     background-color: white;
-    width: 28%;
+    width: 91%;
     border-radius: 28px;
+    box-shadow: 2px 2px 3px 2px grey;
     padding: 2px 2px 2px 6px;
     margin-bottom: 20px;
-    
   }
   #A1 {
     margin-left: 15px ;
-    
   }
    #A2 {
     margin-left: 15px ;
@@ -863,20 +841,12 @@ a {
     margin-top: 20px;
   }
 
+  .images_activite {
+    object-fit: none;
+  }
   .P1 {
     width: 100%;
-    height: calc(100% - 50px);
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: auto;
-  }
-  
-  div.P1 > img {
-    width: 100%;
-    height: 20%;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    object-fit: cover;
+    height: 120px;
   }
   /* -----footer------- */
   footer {
@@ -892,9 +862,13 @@ a {
   footer p {
     font-size: 14px;
   }
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 780px)
 
 
 
+=======
+}
+>>>>>>> 18be2254bbb793e072d65b3dd45452b12cb1d718
