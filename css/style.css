@@ -6,7 +6,7 @@ body {
   margin: 0;
 }
 .main1 {
-  margin-left: 35px;
+  margin-left: 15px;
 }
 .header {
   display: flex;
@@ -57,6 +57,42 @@ ul li a {
   align-items: center;
   padding: 0 100px;
 }
+@media screen and (max-width: 1024px) {
+
+.header {
+    display: block;
+    position: relative;
+    height: auto;
+  }
+
+  .logo {
+    padding-left: 35px;
+  }
+
+  .header .register {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    padding: 0;
+    margin-top: 8px;
+    font-weight: bold !important;
+  }
+  .header nav ul {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .header nav ul li {
+    width: 50%;
+  }
+  .main1 {
+    width: none;
+    margin-left: 0px;
+  }
+}
+
 .titre1 {
   padding-bottom: 5px;
   margin: 0;
@@ -219,6 +255,45 @@ div.selection {
   justify-content: center;
   margin-right: 1rem;
 }
+@media screen and (max-width: 1024px) {
+  .titre {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  ]
+  }
+  @font-face {
+    font-family: "material-icons";
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v14/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2)
+      format("woff2");
+  }}
+  .information {
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+  }
+  .infoicon {
+    min-width: 25px;
+    min-height: 25px;
+    height: 25px;
+    width: 25px;
+    border: solid 1px #d9d9d9;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 3px;
+  }
+}
+  #principale {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 25px;
+  margin: 0;
+  margin-left:-150px ;
+}
 #hebergement {
   height: 686px;
   width: 56%;
@@ -275,13 +350,7 @@ div.selection {
   margin: 20px;
   padding-left: 65px;
 }
-#principale {
-  display: flex;
-  flex-direction: row-reverse;
-  margin-bottom: 25px;
-  margin: 0;
-  margin-left:-150px ;
-}
+
 
 .hotel {
   margin-left: 20px;
@@ -639,6 +708,7 @@ a {
     margin-bottom: 10px;
     padding-top: 3px;
   }
+  @media screen and (max-width: 1024px)
   #principale {
     display: block;
     margin:0
@@ -823,4 +893,8 @@ a {
     font-size: 14px;
   }
 }
+
+@media screen and (max-width: 780px)
+
+
 
