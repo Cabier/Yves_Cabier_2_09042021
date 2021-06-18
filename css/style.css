@@ -58,16 +58,18 @@
   padding: 0 100px;
   }
   
-  @media screen and  (max-width: 1024px) {
+  @media screen and (min-width:768px) and (max-width: 1024px) {
 
     .header {
       display: block;
       position: relative;
       height: auto;
+      background-color: blue;
     }
   
     .logo {
       padding-left: 35px;
+      background-color: aqua;
     }
   
    
@@ -307,7 +309,7 @@ div.selection {
   }
 
   .text_hebergement > h4 {
-  margin: 0;
+  margin: auto;
   padding-top: 12px;
   padding-bottom: 8px;
   font-weight: bold;
@@ -330,6 +332,9 @@ div.selection {
 
   .étoile {
   margin-top: 8px;
+  }
+  em.montant {
+    font-weight: ;
   }
   #populaires {
   width: 40%;
