@@ -564,10 +564,14 @@ a {
   text-decoration: none;
   color: inherit;
 }
+/* ----------------TABLETTES----------------- */
 @media screen and (max-width: 1024px) and (min-width: 415px) {
    header {
     display: flex;
-    background-color: yellow;
+    
+   }
+   .logo {
+    height: 3.513rem
    }
    .barre {
     margin: auto;
@@ -580,14 +584,18 @@ a {
     margin: 10px;
   }
   .bloc_filtres {
-    flex-wrap: wrap;
-height: 250px;
+    align-items:center ;
+    
+  }
+  .bouton_filtres {
+    margin-bottom: 20px;
   }
   .information {
     justify-content: center;
   }
   #principale {
     display: block;
+    margin:0;
   }
   #hebergements {
     text-align: center;
@@ -682,12 +690,16 @@ border-radius: none;
     display: flex;
     justify-content: space-around;
     padding: 0;
+    margin:0
   }
   footer > h4 {
     font-size: 14px;
   }
   .foot {
     font-size: 14px;
+  }
+  footer p {
+    font-size: small;
   }
 }
 
