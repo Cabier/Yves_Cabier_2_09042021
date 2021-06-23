@@ -260,7 +260,7 @@ div.selection {
 .hebergement_marseille {
   background-color: white;
   width: 262px;
-  border-radius: 28px;
+  border-radius: 20px;
   box-shadow: 2px 2px 3px 2px grey;
   padding: 2px 2px 2px 6px;
   margin: auto;
@@ -269,8 +269,8 @@ div.selection {
   width: 98%;
   height: 120px;
   margin-top: 2px;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   padding-top: 2px;
 }
 
@@ -690,12 +690,14 @@ border-radius: none;
     font-size: 14px;
   }
 }
+
+/* --------------PARTIE MOBILES----------------- */
 @media screen and (max-width: 414px) {
   .header {
     display: block;
     position: relative;
     height: auto;
-    background-color: green;
+    
   }
 
   .logo {
@@ -709,6 +711,10 @@ border-radius: none;
     padding: 0;
     margin-top: 8px;
     font-weight: bold !important;
+  }
+  .header nav {
+    margin-top: 30px;
+    
   }
   .header nav ul {
     display: flex;
@@ -753,7 +759,7 @@ border-radius: none;
   }
 
   .champ {
-    width: 55%;
+    width: 60%;
   }
 
   .barre {
@@ -786,16 +792,25 @@ border-radius: none;
   #filtre {
     margin-bottom: 15px;
   }
+  .bouton_filtres {
+    padding-right: 10px;
+  }
   .infoicon {
     margin-left: 35px;
   }
   
   #principale {
     display: block;
+    margin: 0;
   }
   .hebergement_marseille {
     width: 100%;
     margin: 0;
+    
+  }
+  .titre_hebergement {
+    padding: 0;
+    margin:0;
   }
   .img_hebergement {
     width: 99%;
@@ -884,19 +899,21 @@ border-radius: none;
   .hebergements {
     text-align: center;
   }
-
+  .activites_marseille h1 {
+    margin-left: 12px;
+  }
   .activites {
     display: block;
     
     
   }
-#activites {
+  #activites {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-left: 10px;
   padding: auto;
   
-}
+  }
   
 
   #A1 #A2 #A3 #A4 #A5 #A6 {
@@ -917,6 +934,9 @@ border-radius: none;
     height: 150px;
   
   }
+  .texte_activites {
+    font-size: 19px;
+  }
   /* -----footer------- */
   footer {
     display: flex;
@@ -931,6 +951,6 @@ border-radius: none;
 
   }
   footer p {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
