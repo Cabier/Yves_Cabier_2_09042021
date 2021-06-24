@@ -720,7 +720,7 @@ border-radius: 0;
 
   .header .register {
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 35px;
     padding: 0;
     margin-top: 8px;
@@ -734,7 +734,7 @@ border-radius: 0;
     display: flex;
     justify-content: space-between;
     height: auto;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
   }
   .header nav ul li {
@@ -781,6 +781,9 @@ border-radius: 0;
     padding-left: 35px;
    
   }
+  .bouton_recherche {
+    border-radius: 15px;
+  }
   .titre {
     display: flex;
     flex-direction: column;
@@ -812,7 +815,9 @@ border-radius: 0;
   .infoicon {
     margin-left: 35px;
   }
-  
+  .dispo {
+    padding-top: 15px;
+  }
   #principale {
     display: block;
     margin: 0;
@@ -820,7 +825,7 @@ border-radius: 0;
   .hebergement_marseille {
     width: 100%;
     margin: 0;
-    border-radius: 22px;
+    border-radius: 20px;
   }
   .titre_hebergement {
     padding: 0;
@@ -828,6 +833,8 @@ border-radius: 0;
   }
   .img_hebergement {
     width: 99%;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
   }
   .hotel {
     margin-right: 0;
