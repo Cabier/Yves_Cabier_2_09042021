@@ -264,6 +264,7 @@ div.selection {
   box-shadow: 2px 2px 3px 2px grey;
   padding: 2px 2px 2px 6px;
   margin: auto;
+  box-shadow: 0 0 16px #0000002e;
 }
 .img_hebergement {
   width: 98%;
@@ -347,7 +348,7 @@ div.selection {
 
 .les_plus_populaires {
   background-color: white;
-  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  
   height: 146px;
   max-width: 404px;
   width: 100%;
@@ -356,7 +357,7 @@ div.selection {
   flex-direction: row;
   margin: auto;
   margin-bottom: 30px; 
-
+  box-shadow: 0 0 16px #0000002e;
 }
 
 .image {
@@ -375,6 +376,7 @@ div.selection {
   margin: auto;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
+  
 }
 
 .block_texte {
@@ -450,47 +452,48 @@ div.selection {
 #A1 {
   grid-area: image1;
   border-radius: 25px;
-  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  
   object-fit: cover;
-
+  box-shadow: 0 0 16px #0000002e;
 }
 
 #A2 {
   grid-area: image2;
   border-radius: 25px;
-  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  
   object-fit: cover;
+  box-shadow: 0 0 16px #0000002e;
 }
 #A3 {
   grid-area: image3;
   border-radius: 25px;
-  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  
   object-fit: cover;
-
+  box-shadow: 0 0 16px #0000002e;
 }
 
 #A4 {
   grid-area: image4;
   border-radius: 25px;
-  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  
   object-fit: cover;
-
+  box-shadow: 0 0 16px #0000002e;
 }
 
 #A5 {
   grid-area: image5;
   border-radius: 25px;
-  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  
   object-fit: cover;
-
+  box-shadow: 0 0 16px #0000002e;
 }
 
 #A6 {
   grid-area: image6;
   border-radius: 25px;
-  box-shadow: 3px 4px 3px 1px rgb(212, 209, 209);
+  
   object-fit: cover;
-
+  box-shadow: 0 0 16px #0000002e;
 }
 
 .P1 {
@@ -570,6 +573,10 @@ a {
     display: flex;
     
    }
+   .main1 {
+     padding:0;
+     margin:0;
+   }
    .logo {
     height: 3.513rem
    }
@@ -604,11 +611,13 @@ a {
   }
   #hebergement {
     width: 100%;
-    
+    border-radius: 0;
     height: auto;
   }
   .hebergement_marseille {
     width: 310px;
+    padding: 4px 2px 2px 8px;
+    border-radius: 25px;
   }
   .titre_hebergement2 >h2 {
     text-align: center;
@@ -632,7 +641,7 @@ a {
   width: 100%;
   margin: 0;
 margin-bottom: 40px;
-border-radius: none;
+border-radius: 0;
  }
  .main1 {
   margin: 0;
@@ -658,33 +667,26 @@ border-radius: none;
     "image3 image4"
     "image5 image6";
     
-  
-  grid-column-gap: 40px;
+  grid-column-gap: 80px;
   grid-row-gap: 30px;
-  grid-template-columns: 320px 320px ;
-  grid-template-rows: auto 12rem 12rem 12rem;
+  grid-template-columns: 310px 310px ;
+  grid-template-rows: 12rem 12rem 12rem 12rem;
+  margin-left: 30px;
   }  
-  
   #A1 #A2 #A3 #A4 #A5 #A6 {
-    
-    margin: 0;
-    
-    margin: 0;
-    
+   height: 250px; 
     width: auto;
   }
-  
-
   .images_activite {
     object-fit: none;
-  }
-  .P1 {
-    width: 100%;
-    height: 120px;
+    height: 35px;
   }
   #activitees {
     text-align: center;
     padding-bottom: 15px;
+  }
+  .texte_activites {
+    height: 35px;
   }
   footer {
     display: flex;
@@ -818,7 +820,7 @@ border-radius: none;
   .hebergement_marseille {
     width: 100%;
     margin: 0;
-    
+    border-radius: 22px;
   }
   .titre_hebergement {
     padding: 0;
