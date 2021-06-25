@@ -450,7 +450,7 @@ div.selection {
   grid-auto-rows: 200px 50px 30px 200px;
   grid-column-gap: 40px;
   grid-row-gap: 30px;
-  grid-template-columns: 363px 363px 363px 363px;
+  grid-template-columns: 350px 350px 350px 350px;
 }
 
 #A1 {
