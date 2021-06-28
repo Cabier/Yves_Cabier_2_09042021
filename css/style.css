@@ -450,7 +450,7 @@ div.selection {
   grid-auto-rows: 200px 50px 30px 200px;
   grid-column-gap: 40px;
   grid-row-gap: 30px;
-  grid-template-columns: 350px 350px 350px 350px;
+  grid-template-columns: 363px 363px 363px 363px;
 }
 
 #A1 {
@@ -592,7 +592,7 @@ a {
    }
   .titre2 {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
   }
   .bloc_filtres {
     align-items:center ;
@@ -873,7 +873,7 @@ border-radius: 0;
   .titre_hebergement {
     margin-top: 28px;
     margin-bottom: 10px;
-    padding-left: 35px;
+    padding-left: 15px;
   }
 
   .hebergement_marseille {
@@ -941,8 +941,8 @@ border-radius: 0;
   #activites {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  padding: auto;
+  margin-left: 20px;
+  
   
   }
   
