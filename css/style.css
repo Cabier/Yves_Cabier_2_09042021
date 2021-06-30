@@ -574,7 +574,7 @@ a {
 }
 /* ----------------TABLETTES----------------- */
 @media screen and (max-width: 1024px) and (min-width: 415px) {
-   header {
+   .header {
     display: flex;
     justify-content: space-evenly;
    }
@@ -607,6 +607,9 @@ a {
   #block_filtre {
     padding-left: 15px;
  
+    margin-bottom: 20px;
+  }
+  .bouton_filtres {
     margin-bottom: 20px;
   }
   .information {
