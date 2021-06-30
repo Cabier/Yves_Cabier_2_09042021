@@ -576,15 +576,16 @@ a {
 @media screen and (max-width: 1024px) and (min-width: 415px) {
    header {
     display: flex;
-    
+    justify-content: space-evenly;
    }
    .main1 {
      padding:0;
      margin:0;
    }
    .logo {
-    height: 3.513rem
-   }
+    height: 3.513rem;
+    margin:0;
+  }
    .barre {
     margin: auto;
    }
@@ -595,11 +596,17 @@ a {
     text-align: center;
     margin: 10px;
   }
+  #filtre {
+    margin-left: 60px;
+    margin-right: 0px;
+  }
   .bloc_filtres {
     align-items:center ;
     
   }
-  .bouton_filtres {
+  #block_filtre {
+    padding-left: 15px;
+ 
     margin-bottom: 20px;
   }
   .information {
