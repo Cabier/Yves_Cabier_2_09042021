@@ -251,6 +251,9 @@ div.selection {
   display: flex;
   flex-direction: column;
 }
+#hebergements {
+  font-size: x-large;
+}
 .titre_hebergement {
   margin-top: 12px;
   margin-bottom: 10px;
@@ -322,6 +325,7 @@ div.selection {
   margin-top: 7px;
 }
 
+
 .étoile {
   margin-top: 8px;
 }
@@ -333,16 +337,18 @@ div.selection {
   margin-left: 10px;
  
 }
-
+.titrepopulaires {
+font-size: x-large;
+}
 .titre_populaires {
-  margin-top: 10px;
+ 
   display: flex;
   justify-content: space-around;
 }
 
 .titre_populaires i {
-  margin-top: 25px;
-  font-size: 22px;
+  margin-top: 28px;
+  font-size: x-large;
 }
 
 .chambre {
