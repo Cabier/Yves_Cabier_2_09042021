@@ -48,6 +48,9 @@ nav ul li {
   text-decoration: none;
   font-size: 15px;
 }
+.test{
+    border-top:  3px solid transparent;
+}
 .traitbleu {
   color: #0065fc;
   border-top: #0065fc solid 3px;
@@ -55,7 +58,6 @@ nav ul li {
 }
 .hebergement_color  {
   color: #0065fc;
-  
 }
 
 .activity {
@@ -196,11 +198,10 @@ div.selection {
 }
 
 .filterIcon {
-  width: 60px;
+  width: 55px;
   padding-top: 20px;
   padding-bottom: 20px;
-  border-radius: 38%;
-
+  border-radius: 100%;
   background-color: #deebff;
   color: #0065fc;
   text-align: center;
@@ -753,6 +754,7 @@ border-radius: 0;
   }
   .activity {
     padding-top: 1px;
+    color: black;
   }
   .traitbleu {
     color: #0065fc;
@@ -767,6 +769,7 @@ border-radius: 0;
     border-top: none;
     opacity: 0.5;
     width: auto;
+    border: 3px solid transparent;
   }
   .titre1 {
     text-align: justify;
@@ -836,10 +839,7 @@ border-radius: 0;
     margin: 0;
     border-radius: 20px;
   }
-  .titre_hebergement {
-    padding: 0;
-    margin:0;
-  }
+ 
   .img_hebergement {
     width: 99%;
     border-top-left-radius: 24px;
@@ -857,6 +857,12 @@ border-radius: 0;
     margin-left: 0px;
     margin-right: 0px;
     border-radius: 0px;
+  }
+  .titre_populaires {
+    margin-top: 10px;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   #hebergement {
     width: 100%;
@@ -890,7 +896,9 @@ border-radius: 0;
     display: block;
     margin-left: 0px;
   }
-
+  .titre_hebergement2 {
+    padding-left: 3px;
+  }
   #filtre {
     margin-right: 60px;
     padding-bottom: 0px;
@@ -931,7 +939,7 @@ border-radius: 0;
     text-align: center;
   }
   .activites_marseille h1 {
-    margin-left: 12px;
+    margin-left: 20px;
   }
   .activites {
     display: block;
@@ -972,6 +980,7 @@ border-radius: 0;
   footer {
     display: flex;
     flex-direction: column;
+    padding-left: 25px;
   }
 
   .titre1 {
