@@ -244,7 +244,7 @@ div.selection {
   margin-right: 1rem;
 }
 #hebergement {
-  height: 686px;
+  
   width: 65%;
   background-color: #f2f2f2;
   border-radius: 20px;
@@ -283,6 +283,7 @@ div.selection {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   padding-top: 2px;
+  object-fit: cover;
 }
 
 .text_hebergement {
@@ -543,8 +544,11 @@ footer {
   background-color: #f2f2f2;
   margin-top: 80px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-column-gap:180px;
   padding-left: 60px;
+  max-width: 1740px;
+  position: relative;
 }
 
 footer section.pied_de_pages ul {
@@ -573,13 +577,45 @@ footer section ul li a.foot {
 footer p {
   margin: 0;
   margin-bottom: 10px;
-  font-size: 20px;
+  
   text-decoration: none;
 }
 a {
   text-decoration: none;
   color: inherit;
 }
+@media screen and (max-width: 1455px) and (min-width:1025px){
+  .hotel {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+    margin-top: 7px;
+    }
+    .chambre {
+      
+      grid-row-gap: 85px;
+
+    }
+    #activites {
+      grid-template-areas:
+      "image1 image2 image3"
+      "image4 image5 image6"
+      ;
+      
+    grid-column-gap: 80px;
+    grid-row-gap: 30px;
+    grid-template-columns: 310px 310px ;
+    grid-template-rows: 12rem 12rem 12rem;
+    margin-left: 30px;
+    }  
+    #A1 #A2 #A3 #A4 #A5 #A6 {
+     height: 250px; 
+      width: auto;
+    }
+  }
+
 /* ----------------TABLETTES----------------- */
 @media screen and (max-width: 1024px) and (min-width: 415px) {
    .header {
@@ -684,6 +720,10 @@ border-radius: 0;
   .block_texte > h4 {
     font-size: 24px;
   }
+  .activites_marseille h1 {
+    padding-top: 0;
+    margin-top:0;
+  }
   #activites {
     grid-template-areas:
     "image1 image2"
@@ -717,15 +757,61 @@ border-radius: 0;
     padding: 0;
     margin:0;
     margin-top:25px;
+    grid-column-gap:0px;
   }
-  footer > h4 {
-    font-size: 14px;
+  footer > h2 {
+    font-size: 1px;
   }
   .foot {
     font-size: 14px;
   }
   footer p {
-    font-size: small;
+    font-size: 14px;
+  }
+  footer h2 {
+    font-size: 14px;
+  }
+}
+@media all and (device-width: 1024px) and (device-height:768px) and (orientation:landscape) {
+
+  .inscrire {
+    padding-bottom: 2px;
+  }
+
+  #filtre {
+    margin-top:0;
+  }
+  #block_filtre {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .bouton_filtres {
+    padding-right: 2px;
+  }
+  .titre_populaires {
+    padding-left:70px;
+
+    }
+    .titre_populaires i {
+      padding-right: 70px;
+    }
+  
+  #activites {
+  grid-template-columns: 310px 310px;
+  grid-column-gap:210px;
+  margin-left: 95px;
+  }
+  .activites_marseille h1 {
+   margin-top: 40px;
+  }
+  footer h2 {
+    font-size: 16px;
+  }
+ .foot {
+  font-size: 14px;
+  }
+  footer p {
+  font-size: 14px;
   }
 }
 
@@ -1012,3 +1098,4 @@ border-radius: 0;
     font-size: 16px;
   }
 }
+ 
