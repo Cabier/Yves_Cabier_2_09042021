@@ -283,6 +283,7 @@ div.selection {
 .text_hebergement {
   padding-right: 30px;
   padding-left: 20px;
+  padding-bottom: 4px;
 }
 
 .text_hebergement > h4 {
@@ -299,6 +300,7 @@ div.selection {
 .étoile {
   margin-top: 10px;
 }
+
 
 .titre_hebergement2 {
   margin: 20px;
@@ -715,6 +717,9 @@ border-radius: 0;
   .block_texte > h4{
     font-size: 24px;
     margin-top: 5px;
+  }
+  .notation{
+    margin-bottom: 10px;
   }
   .activites_marseille h1 {
     padding-top: 25px;
