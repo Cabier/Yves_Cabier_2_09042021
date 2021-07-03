@@ -257,7 +257,7 @@ div.selection {
 .titre_hebergement {
   margin-top: 12px;
   margin-bottom: 10px;
-  padding-left: 40px;
+  padding-left: 60px;
 }
 
 
@@ -285,7 +285,7 @@ div.selection {
   padding-left: 20px;
 }
 
-.text_hebergement > h3 {
+.text_hebergement > h4 {
   margin: 0;
   padding-top: 12px;
   padding-bottom: 8px;
@@ -312,7 +312,7 @@ div.selection {
 }
 
 #hotel {
-  margin-left: 20px;
+  margin-left: 10px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 40px;
@@ -339,6 +339,7 @@ font-size: x-large;
  
   display: flex;
   justify-content: space-around;
+  padding-bottom: 10px;
 }
 
 .titre_populaires i {
@@ -357,7 +358,7 @@ font-size: x-large;
 .les_plus_populaires {
   background-color: white;
   
-  height: 146px;
+  
   max-width: 404px;
   width: 100%;
   border-radius: 25px;
@@ -388,7 +389,7 @@ font-size: x-large;
 }
 
 .block_texte {
-  padding-top: 15px;
+  
   padding-right: 30px;
   padding-left: 20px;
   position: relative;
@@ -454,7 +455,7 @@ font-size: x-large;
   grid-auto-rows: 200px 50px 30px 200px;
   grid-column-gap: 40px;
   grid-row-gap: 30px;
-  grid-template-columns: 363px 363px 363px 363px;
+  grid-template-columns: 364px 364px 364px 364px;
 }
 
 #A1 {
@@ -521,7 +522,7 @@ div.P1 > img {
   object-fit: cover;
 }
 
-.texte_activites h3 {
+.texte_activites h4 {
   margin: 15px 0px 25px 30px;
   font-family: "raleway", serif;
   color: black;
@@ -711,8 +712,9 @@ border-radius: 0;
     padding-left: 140px;
 
   }
-  .block_texte > h3{
+  .block_texte > h4{
     font-size: 24px;
+    margin-top: 5px;
   }
   .activites_marseille h1 {
     padding-top: 25px;
@@ -1034,7 +1036,7 @@ border-radius: 0;
   .hebergements {
     text-align: center;
   }
-  .activites_marseille h1 {
+  .activites_marseille h2 {
     margin-left: 20px;
   }
   .activites {
@@ -1090,4 +1092,13 @@ border-radius: 0;
     font-size: 16px;
   }
 }
- 
+@media screen and (max-width: 736px) and (orientation:landscape) {
+
+  #activites {
+    
+    grid-column-gap: 60px;
+    margin-right: 20px;
+    padding-right: 20px;
+   
+  }
+}  
