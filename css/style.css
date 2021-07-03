@@ -291,7 +291,7 @@ div.selection {
   padding-left: 20px;
 }
 
-.text_hebergement > p {
+.text_hebergement > h1 {
   margin: 0;
   padding-top: 12px;
   padding-bottom: 8px;
@@ -422,7 +422,7 @@ font-size: x-large;
   color: #0065fc;
 }
 
-.block_texte > p {
+.block_texte > h1 {
   margin: 0;
   padding-bottom: 10px;
   font-weight: bold;
