@@ -259,13 +259,7 @@ div.selection {
   margin-bottom: 10px;
   padding-left: 40px;
 }
-#hotel {
-  
-  margin-right: 30px;
-  display: grid;
-  column-gap: 2rem;
-  row-gap: 2rem;
-}
+
 
 .hebergement_marseille {
   background-color: white;
