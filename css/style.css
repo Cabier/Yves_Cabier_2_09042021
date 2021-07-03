@@ -285,7 +285,7 @@ div.selection {
   padding-left: 20px;
 }
 
-.text_hebergement > h4 {
+.text_hebergement > h3 {
   margin: 0;
   padding-top: 12px;
   padding-bottom: 8px;
@@ -521,7 +521,7 @@ div.P1 > img {
   object-fit: cover;
 }
 
-.texte_activites h4 {
+.texte_activites h3 {
   margin: 15px 0px 25px 30px;
   font-family: "raleway", serif;
   color: black;
@@ -711,7 +711,7 @@ border-radius: 0;
     padding-left: 140px;
 
   }
-  .block_texte > h4 {
+  .block_texte > h3{
     font-size: 24px;
   }
   .activites_marseille h1 {
