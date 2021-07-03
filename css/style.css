@@ -259,7 +259,7 @@ div.selection {
   margin-bottom: 10px;
   padding-left: 40px;
 }
-.hotel {
+#hotel {
   
   margin-right: 30px;
   display: grid;
@@ -317,7 +317,7 @@ div.selection {
   justify-content: space-between;
 }
 
-.hotel {
+#hotel {
   margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -352,7 +352,7 @@ font-size: x-large;
   font-size: x-large;
 }
 
-.chambre {
+#chambre {
   margin-bottom: 30px;
   padding: 15px;
   position: relative;
@@ -585,7 +585,7 @@ a {
   color: inherit;
 }
 @media screen and (max-width: 1455px) and (min-width:1025px){
-  .hotel {
+  #hotel {
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -593,7 +593,7 @@ a {
     
     margin-top: 7px;
     }
-    .chambre {
+    #chambre {
       
       grid-row-gap: 85px;
 
@@ -684,7 +684,7 @@ a {
     padding-top: 20px;
   }
   
-  .hotel {
+  #hotel {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0;
@@ -948,7 +948,7 @@ border-radius: 0;
     border-top-right-radius: 24px;
     object-fit: cover;
   }
-  .hotel {
+  #hotel {
     margin-right: 0;
   }
   #populaires {
@@ -994,7 +994,7 @@ border-radius: 0;
     margin-bottom: 20px;
   }
 
-  .hotel {
+  #hotel {
     display: block;
     margin-left: 0px;
   }
