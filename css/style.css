@@ -781,7 +781,7 @@ border-radius: 0;
   }
   #block_filtre {
     display: flex;
-    flex-flow: row nowrap;
+    flex-direction: row;
   }
   .bouton_filtres {
     padding-right: 2px;
