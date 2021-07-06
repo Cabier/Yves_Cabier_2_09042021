@@ -13,7 +13,7 @@ body {
 }
 .main1 {
   margin-left: 35px;
-  max-width: 1640px;
+  
   margin: auto;
   padding: 0 2rem;
   box-sizing: border-box;
@@ -457,7 +457,7 @@ font-size: x-large;
   grid-auto-rows: 200px 50px 30px 200px;
   grid-column-gap: 40px;
   grid-row-gap: 30px;
-  grid-template-columns: 364px 364px 364px 364px;
+  grid-template-columns: 375px 375px 375px 375px;
 }
 
 #A1 {
@@ -544,7 +544,7 @@ footer {
   grid-template-columns: 350px 350px 350px 350px;
   grid-column-gap:180px;
   padding-left: 60px;
-  max-width: 1740px;
+  
   position: relative;
 }
 
