@@ -270,7 +270,7 @@ div.selection {
 
 .hebergement_marseille {
   background-color: white;
-  width: 262px;
+  width: 90%;
   border-radius: 20px;
   box-shadow: 2px 2px 3px 2px grey;
   padding: 2px 2px 2px 6px;
@@ -784,7 +784,7 @@ border-radius: 0;
     font-size: 18px;
   }
 }
-@media all and (device-width: 1024px) and (device-height:768px) and (orientation:landscape) {
+@media all and (max-width: 1024px) and (min-height:768px) and (orientation:landscape) {
 
   .inscrire {
     padding-bottom: 2px;
@@ -807,11 +807,15 @@ border-radius: 0;
     .titre_populaires i {
       padding-right: 70px;
     }
-  
+    .hebergement_marseille {
+      width: 90%;
+      padding: 4px 2px 2px 8px;
+      border-radius: 25px;
+    }
   #activites {
-  grid-template-columns: 310px 310px;
-  grid-column-gap:210px;
-  margin-left: 95px;
+  grid-template-columns: 47% 47%;
+  grid-column-gap:5%;
+  margin-left: 25px;
   }
   .activites_marseille h1 {
    margin-top: 40px;
@@ -1122,22 +1126,69 @@ border-radius: 0;
   main {
     margin:0;
   }
-@media screen and (max-width: 736px) and (orientation:landscape) {
+@media screen and (max-width:736px) and (min-width:414px)  {
 
   #activites {
-    grid-column-gap: 20px;
+    grid-column-gap: 5%;
     margin-right: 20px;
     padding-right: 20px;
-    margin-left:10px ;
+     
+    grid-template-columns: 45% 45%;
   }
-}  
+  
 main {
   margin:0;
 }
+
 @media screen and (max-width: 375px) and (orientation:landscape) {
   #activites {
     margin-right: 0;
     grid-column-gap:20px ;
   }
+ 
+}}
 }
+@media screen and (max-width:741px)   {
+  #activites {
+  grid-column-gap:8%; 
+  } 
+}
+@media screen and (max-width:620px) {
+#hotel{
+  display:flex;
+  flex-direction: column;
+  
+}
+.hebergement_marseille {
+  width: auto;
+  margin: 20px;
+  
+}
+.img_hebergement{
+  height: 180px;
+}
+.images_activite {
+  height: 60px;
+}
+.p1 {
+  height: 50px;
+}
+#activites {
+  display: flex;
+  flex-direction: column;
+  
+}
+div.P1 > img {
+  height: 200px;
+}
+}
+@media screen  and (max-width:414px)  {
+ .P1 {
+   height:200px;
+}
+}
+@media screen  and (max-width:1024px) {
+  #activites {
+   grid-template-columns: 45%; 
+  }
 }
