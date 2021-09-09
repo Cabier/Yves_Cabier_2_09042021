@@ -1049,7 +1049,16 @@ a {
    flex-direction: column;
    padding-left:15px;
  } 
-
+ .texte_bouton {
+  font-size: 11px;
+  padding-left:8px;
+}
+.bouton_filtres {
+  margin-right: 0;
+}
+.barre {
+  left:50px;
+}
 }
 @media  screen and (max-width:502px) { 
   .barre {
@@ -1084,20 +1093,26 @@ a {
    margin: 0 0 25px 0; 
    padding: 0;
    border-radius:0%;
+   width: 100%;
   }
-  .hebergement {
+  .les_plus_populaires {
+    max-width: 400px;
+  }
+  #hebergement {
     width: 100%;
     margin: 0;
+    border-radius: 0;
+  }
+  #hotel {
+    margin-left:0;
   }
   #texte_bouton_recherche::after {
     
     content: "\f002";
     font-family: "fontawesome";
+    
   }
-  .bloc_filtres {
-  display:flex;
-  flex-wrap: wrap;
-  }
+  
   .bouton_responsive1 {
     padding-left:25px;
   }
@@ -1109,11 +1124,73 @@ a {
   }
   .barre {
     max-width: 300px;
+    
   }
   .dispo {
     font-size: 17px;
   }
-}
+  .bouton_responsive2 {
+    flex:2;
+  }
+  .text_boutonfamilial {
+    right:5px;
+  }
+  #filtre {
+    margin: 0;
+  }
+  .bouton_responsive1 {
+    grid-area: economique;
 
+  }
+  .bouton_responsive2 {
+    grid-area: Familial;
+  }
+  .bouton_responsive3 {
+    grid-area:Romantique;
+  }
+  .bouton_responsive4 {
+    grid-area: Animaux;
+
+  }
+  .titre1 {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom:15px;
+  }
+  #hebergement {
+    background-color: white;
+  }
+  .titre_hebergement {
+    padding-left: 15px;
+  }
+  .titre_hebergement2 {
+    padding-left: 0;
+  }
+  .div.P1 > img {
+    height: 160px;
+  }
+  .img_hebergement {
+    width: 98%;
+    height: 160px;
+  }
+  .hebergement_marseille {
+    width: 94%;
+    
+  }
+  .block_texte {
+    padding:5px 0px 0px 20px;
+  }
+  .image {
+    width:170px;
+  }
+  .bouton_recherche {
+    border-radius: 13px;
+  }
+  .bloc_filtres {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 
