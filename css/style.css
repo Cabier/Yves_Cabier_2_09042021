@@ -930,6 +930,9 @@ a {
   .img_hebergement {
     width: 99%;
   }
+  .bouton_filtres {
+    margin-top:10px;
+  }
 }
 @media  screen and (max-width:740px) {
   .barre {
@@ -1193,4 +1196,13 @@ a {
     }
 
  
+}
+@media screen and (max-width:375px) and (min-width:667px) {
+  .champ {
+    width :50px;
+  }
+  .barre {
+    left:0;
+    max-width:360px;
+  }
 }
