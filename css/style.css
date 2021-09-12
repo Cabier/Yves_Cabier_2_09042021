@@ -175,7 +175,7 @@ div.selection {
   font-size: 20px;
   margin: 0 2rem 1rem 0;
   display: flex;
-  justify-content: right;
+  
 }
 
 .bouton_filtres {
@@ -225,7 +225,7 @@ div.selection {
   padding-left: 0;
 }
 #filtre {
-  margin-right: 60px;
+ 
   padding-bottom: 20px;
   margin-top: 15px;
 }
@@ -873,7 +873,7 @@ a {
       
       justify-content: center;
       position: relative;
-      left: 200px;
+      
     }
     .titre {
       text-align: center;
@@ -916,6 +916,7 @@ a {
   }
 }
 
+
 @media  screen and (max-width:852px) {
   .barre {
     max-width: 400px;
@@ -933,12 +934,34 @@ a {
   .bouton_filtres {
     margin-top:10px;
   }
-}
-@media  screen and (max-width:740px) {
-  .barre {
-    left:150px;
+  #filtre {
+    
+    padding-left:25px;
+    display:flex;
+    justify-content:left; 
+  }
+  text.bouton {
+    font-size:11px;
+
+  }
+  .block_filtre {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bouton_filtres {
+    display: flex;
+    align-items: center;
   }
 
+}
+@media  screen and (max-width:868px) {
+  .block_filtre {
+    display: flex;
+    flex-wrap: column;
+  }
+  .bouton_filtres {
+    margin-bottom: 10px;
+  }
 }
 @media  screen and (max-width:632px) {
   .main1 {
@@ -963,9 +986,7 @@ a {
     
     margin: 20px 0;
   }
-  .barre {
-   left:100px; 
-  }
+  
   .logo {
     margin-right: 0;
     padding-left: 12px;
@@ -983,6 +1004,12 @@ a {
   .traittransparent {
     border-bottom: 3px solid rgb(182, 181, 181);
     width: 50%;
+  }
+  .barre {
+    left:80px;
+  }
+  .bouton_filtres {
+    margin-right: 10px;
   }
   .hebergement_color {
     
@@ -1056,20 +1083,36 @@ a {
     padding-left:8px;
   }
   .bouton_filtres {
-    margin-right: 0;
+    margin-right: 10px;
   }
-  .barre {
-    left:50px;
+  
+  #texte_bouton_recherche::after {
+    
+    content: "\f002";
+    font-family: "fontawesome";
+    
   }
  }
+ @media  screen and (max-width:556px) { 
+ .bouton_filtres {
+   display:flex;
+   flex-wrap: wrap;
+ }
 @media  screen and (max-width:502px) { 
-  .barre {
-    left:50px;
-  }
+ 
   .bloc_filtres {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+  }
+  #texte_bouton_recherche::after {
+    
+    content: "\f002";
+    font-family: "fontawesome";
+    
+  }
+  .barre {
+    left:40px
   }
 }
 @media  screen and (max-width:414px) {
@@ -1118,7 +1161,8 @@ a {
   
   .barre {
     max-width: 380px;
-    left: 20px; 
+    left: 30px;
+  
   }
   .dispo {
     font-size: 17px;
@@ -1202,7 +1246,9 @@ a {
     width :50px;
   }
   .barre {
-    left:0;
-    max-width:360px;
+    left:10px;
+    max-width:300px;
   }
+
+}
 }
