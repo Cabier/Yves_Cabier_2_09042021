@@ -1241,13 +1241,11 @@ a {
 
  
 }
-@media screen and (max-width:375px) and (min-width:667px) {
-  .champ {
-    width :50px;
-  }
+@media screen and (max-width:375px)  {
+ 
   .barre {
-    left:10px;
-    max-width:300px;
+   left: 0;
+    max-width: 400px;
   }
 
 }
